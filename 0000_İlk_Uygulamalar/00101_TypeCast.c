@@ -1,4 +1,4 @@
-/* Değişken Tipleri Arasında Dönüşüm İşlemleri (typecasting)*/
+/* Degisken Tipleri Arasinda Donusum Islemleri (typecasting)*/
 
 #include <stdio.h>
 
@@ -22,7 +22,6 @@ int main ()
     
     gercel_bolme_sonucu_float_tamsayi = (int) gercel_bolme_sonucu_float;
     printf("Gerçek Bölme Sonucu (Float)'un Tamsayıya Dönüştürülmüş Hali = %d\n", gercel_bolme_sonucu_float_tamsayi);
-    
     
     return 0;
 }

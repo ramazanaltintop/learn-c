@@ -1,4 +1,4 @@
-/* Değişkenlere Değer Atama */
+/* Degiskenlere Deger Atama */
 
 #include <stdio.h>
 

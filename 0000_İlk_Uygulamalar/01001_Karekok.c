@@ -1,22 +1,22 @@
 /**
- * Karekök Hesabı
+ * Karekok Hesabi
 */
 
 #include <stdio.h>
-#include <math.h> // sqrt() fonksiyonunu kullanabilmek için
+#include <math.h> // sqrt() fonksiyonunu kullanabilmek icin
 
 int main ()
 {
     double sayi, karekok;
     
-    /* Kullanıcıdan sayı değerini al */
+    /* Kullanicidan sayi degerini al */
     printf("Karekökü hesaplanacak olan sayıyı giriniz: ");
     scanf("%lf", &sayi);
     
-    /* Sayının karekökünü hesapla */
+    /* Sayinin karekokunu hesapla */
     karekok = sqrt(sayi);
     
-    /* Sonucu yazdır */
+    /* Sonucu yazdir */
     printf("%.2lf sayısının karekökü = %2.lf", sayi, karekok);
     
     return 0;

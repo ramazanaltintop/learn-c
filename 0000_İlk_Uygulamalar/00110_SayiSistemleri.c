@@ -1,12 +1,12 @@
-/* Farklı Sayı Sistemlerinde Değer Atama */
+/* Farkli Sayi Sistemlerinde Deger Atama */
 
 #include <stdio.h>
 
 int main ()
 {
-    int a = 35; // 10'luk sayı düzeninde (decimal)
-    int b = 0b00100011; // 2'lik sayı düzeninde (binary)
-    int c = 0x23; // 16'lık sayı düzeninde (hexadecimal)
+    int a = 35; // 10'luk sayi duzeninde (decimal)
+    int b = 0b00100011; // 2'lik sayi duzeninde (binary)
+    int c = 0x23; // 16'lık sayi duzeninde (hexadecimal)
     
     printf("a = %d\n", a);
     printf("b = %d\n", b);

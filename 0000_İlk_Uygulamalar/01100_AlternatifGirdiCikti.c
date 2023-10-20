@@ -1,7 +1,7 @@
 /**
- * Girdi ve çıktı işlemlerinin
- * scanf() ve print() fonksiyonları
- * ile gerçekleştirilmesi
+ * Girdi ve cikti islemlerinin
+ * scanf() ve print() fonksiyonlari
+ * ile gerceklestirilmesi
  */
 
 #include <stdio.h>
@@ -10,16 +10,16 @@ int main()
 {
     int sayi1, sayi2, toplam;
     
-    /* Kullanıcıya mesaj yaz */
+    /* Kullaniciya mesaj yaz */
     printf("İki sayı giriniz: ");
 
-    /* İki değeri kullanıcıdan al */
+    /* Iki degeri kullanicidan al */
     scanf("%d%d", &sayi1, &sayi2);
 
-    /* Sayıları topla */
+    /* Sayiları topla */
     toplam = sayi1 + sayi2;
 
-    /* Toplamı yazdır */
+    /* Toplami yazdir */
     printf("Toplam = %d", toplam);
 
     return 0;

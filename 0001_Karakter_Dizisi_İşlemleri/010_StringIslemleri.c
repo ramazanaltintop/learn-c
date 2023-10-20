@@ -1,5 +1,5 @@
 /**
- * String (karakter dizisi) işlemleri
+ * String (karakter dizisi) islemleri
 */
 
 #include <stdio.h>
@@ -8,9 +8,9 @@
 int main ()
 {
     char ingiliz_alfabesi[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    printf("%d", strlen(ingiliz_alfabesi)); // Sadece bizim gördüğümüz karakterleri içerir.
+    printf("%d", strlen(ingiliz_alfabesi)); // Sadece bizim gordugumuz karakterleri icerir.
     printf("\n...\n");
-    printf("%d", sizeof(ingiliz_alfabesi)); // \0 karakterini de içerir. Hafızada gereken yer miktarı, boyut
+    printf("%d", sizeof(ingiliz_alfabesi)); // \0 karakterini de icerir. Hafizada gereken yer miktarı, boyut
     printf("\n...............\n");
     
     // Multi-character character = Ç, Ğ, İ, Ö, Ş, Ü 23 + (2 * 6) = 35

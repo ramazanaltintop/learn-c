@@ -1,4 +1,4 @@
-/* Hızlı Atama Özelliği */
+/* Hizli Atama Ozelligi */
 
 #include <stdio.h>
 

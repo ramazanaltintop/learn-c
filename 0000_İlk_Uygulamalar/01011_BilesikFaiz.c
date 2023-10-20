@@ -14,25 +14,23 @@ int main ()
     printf("Ana para miktarını giriniz : ");
     scanf("%f", &ana_para);
     
-    printf("Zamanı giriniz: ");
+    printf("Zamani giriniz: ");
     scanf("%f", &zaman);
     
-    printf("Faiz oranını giriniz : ");
+    printf("Faiz oranini giriniz : ");
     scanf("%f", &faiz_orani);
     
-    /* Basit faiz hesabı ile faiz miktarını hesapla */
+    /* Basit faiz hesabi ile faiz miktarini hesapla */
     basit_faiz_miktari = (ana_para * zaman * faiz_orani) / 100;
     
-    /* Basit faiz hesabının sonucunu yazdır */
-    printf("Basit faiz hesabı ile hesaplanan faiz miktarı = %f \n", basit_faiz_miktari);
+    /* Basit faiz hesabinin sonucunu yazdır */
+    printf("Basit faiz hesabi ile hesaplanan faiz miktari = %f \n", basit_faiz_miktari);
     
-    /* Bileşik faiz hesabı ile faiz miktarını hesapla */
+    /* Bilesik faiz hesabi ile faiz miktarini hesapla */
     bilesik_faiz_miktari = ana_para * (pow((1 + faiz_orani / 100), zaman));
     
-    /* Bileşik faiz hesabının sonucunu yazdır */
-    printf("Bileşik faiz hesabı ile hesaplanan faiz miktarı = %f", bilesik_faiz_miktari);
+    /* Bilesik faiz hesabinin sonucunu yazdir */
+    printf("Bilesik faiz hesabi ile hesaplanan faiz miktari = %f", bilesik_faiz_miktari);
     
     return 0;
 }
-
-

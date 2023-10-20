@@ -1,4 +1,4 @@
-/* Temel Aritmetik İşlemler */
+/* Temel Aritmetik Islemler */
 
 #include <stdio.h>
 
@@ -8,18 +8,18 @@ int main ()
     int toplam, fark, carpim, mod;
     float bolum;
     
-    /* Kullanıcıdan iki sayı al */
+    /* Kullanıcıdan iki sayi al */
     printf("Lütfen iki sayı giriniz: ");
     scanf("%d%d", &sayi1, &sayi2);
     
-    /* Tüm aritmetik işlemleri gerçekleştir */
+    /* Tum aritmetik islemleri gerceklestir */
     toplam = sayi1 + sayi2;
     fark = sayi1 - sayi2;
     carpim = sayi1 * sayi2;
     bolum = (float)sayi1 / sayi2;
     mod = sayi1 % sayi2;
     
-    /* Sonuçları yazdır */
+    /* Sonucları yazdir */
     printf("Toplam = %d\n", toplam);
     printf("Fark = %d\n", fark);
     printf("Çarpım = %d\n", carpim);

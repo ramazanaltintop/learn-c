@@ -1,6 +1,6 @@
 /**
- * Dikdörtgen alanının ve çevresinin
- * hesaplanması
+ * Dikdortgen alaninin ve cevresinin
+ * hesaplanmasi
 */
 
 #include <stdio.h>
@@ -10,24 +10,24 @@ int main ()
     float boy, en, cevre, alan;
     
     /**
-     * Uzunluk ve genişlik değerlerini kullanıcıdan al
+     * Uzunluk ve genislik degerlerini kullanicidan al
     */
-    printf("Dikdörtgen uzunluğunu giriniz : ");
+    printf("Dikdortgen uzunlugunu giriniz : ");
     scanf("%f", &boy);
     
-    printf("Dikdörgen genişliğini giriniz : ");
+    printf("Dikdortgen genisligini giriniz : ");
     scanf("%f", &en);
     
-    /* Dikdörtgenin çevresini hesapla */
+    /* Dikdortgenin cevresini hesapla */
     cevre = 2 * (en + boy);
     
-    /* Dikdörtgenin çevresini yazdır */
-    printf("Dikdörtgenin çevresi = %f birimdir.\n", cevre);
+    /* Dikdortgenin cevresini yazdir */
+    printf("Dikdortgenin çevresi = %f birimdir.\n", cevre);
     
-    /* Dikdörtgen alanını hesapla */
+    /* Dikdortgen alanini hesapla */
     alan = en * boy;
-    /* Dikdörtgenin alanını yazdır */
-    printf("Dikdörtgenin alanı = %f birim karedir.", alan);
+    /* Dikdörtgenin alanini yazdir */
+    printf("Dikdortgenin alani = %f birim karedir.", alan);
     
     return 0;
 }
